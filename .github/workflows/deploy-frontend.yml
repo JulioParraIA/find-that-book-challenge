@@ -29,7 +29,7 @@ jobs:
           cd frontend
           npm run build
         env:
-          VITE_API_URL: https://ca-cbtw-books-api.agreeablesand-cb694fac.eastus2.azurecontainerapps.io
+          VITE_API_BASE_URL: https://ca-cbtw-books-api.agreeablesand-cb694fac.eastus2.azurecontainerapps.io
 
       - name: Deploy to Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
